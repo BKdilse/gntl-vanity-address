@@ -1,16 +1,28 @@
-# arqma-vanity-address
-Arqma Vanity Address Generator
+# gntl-vanity-address
+GNTL Vanity Address Generator
 
-# Requirements:
+# Build Instructions:
 
-`sudo apt update && sudo apt install golang-1.13-go`  
-`git clone https://github.com/malbit/arqma-vanity-address.git`  
-`cd arqma-vanity-address`  
-`go build`
+```
+sudo apt update && sudo apt install golang
+git clone https://github.com/BKdilse/gntl-vanity-address.git
+cd gntl-vanity-address
+go build
+```
 
-Binary file will be built: ```arqma-vanity-address```  
+The following Binary file will be built:
+```
+gntl-vanity-address
+```
 
-options can be invoked: ```./arqma-vanity-address --help```
+Usage:
+```
+./gntl-vanity-address --numeral=1 BK666
+```
 
+Options can be listed in help:
+```
+./gntl-vanity-address --help
+```
 
 Credits to: https://github.com/pwhelan/sumo-vanity-address/

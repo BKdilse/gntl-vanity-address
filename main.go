@@ -151,9 +151,9 @@ func main() {
 
 	fmt.Printf("[*] Threads: %d Cores: %d\n", threads, runtime.GOMAXPROCS(0))
 	if numeral == 0 {
-		fmt.Printf("[*] Searching for Arqma address starting with ar#%s\n", flag.Arg(0))
+		fmt.Printf("[*] Searching for GNTL address starting with gnt#%s\n", flag.Arg(0))
 	} else {
-		fmt.Printf("[*] Searching for Arqma address starting with ar%d%s\n", numeral, flag.Arg(0))
+		fmt.Printf("[*] Searching for GNTL address starting with gnt%d%s\n", numeral, flag.Arg(0))
 	}
 
 	s := make(chan struct{})
